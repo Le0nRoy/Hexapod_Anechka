@@ -1,0 +1,16 @@
+*.user
+*.stash
+*/build-Anechka-Desktop_Qt_5_12_1_MSVC2017_32bit-Debug/
+*/build-Anechka-Desktop_Qt_5_12_1_MSVC2017_64bit-Debug/
+*/Debug/
+*/lst/
+*/obj/
+*/.settings/*
+*/*.bak
+*/*.dep
+*/dummy.uvgui.*
+*/EventRecorderStub.scvd
+*/Debug/
+unused
+*.url
+/Materials/
