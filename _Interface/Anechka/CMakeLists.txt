@@ -13,9 +13,13 @@ set(CMAKE_AUTOUIC ON)
 find_package(Qt5Widgets CONFIG REQUIRED)
 
 set ( ANN_SRC
+    anechka.cpp,
+    ConnectButton/connect_button.cpp
 	)
 	
 set ( ANN_UI
+    aneechka.ui,
+    ConnectButton/connect_button.ui
 	)
 
 add_executable ( anechka

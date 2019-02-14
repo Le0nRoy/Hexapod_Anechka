@@ -25,23 +25,17 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
-        main.cpp \
-        anechka.cpp \
-    anechka.cpp \
     main.cpp \
     anechka.cpp \
-    main.cpp \
     ConnectButton/connect_button.cpp
 
 HEADERS += \
-        anechka.h \
-    anechka.h \
     anechka.h \
     ConnectButton/connect_button.h
 
 FORMS += \
-        anechka.ui \
-        ConnectButton/connect_button.ui
+    anechka.ui \
+    ConnectButton/connect_button.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

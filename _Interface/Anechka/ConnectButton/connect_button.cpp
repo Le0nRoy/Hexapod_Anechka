@@ -1,5 +1,6 @@
 #include "connect_button.h"
 #include "ui_connect_button.h"
+#include "QPushButton"
 
 connect_button::connect_button ( QWidget *parent ) :
     QWidget ( parent ),
@@ -9,5 +10,6 @@ connect_button::connect_button ( QWidget *parent ) :
     // TODO
     // кнопка посередине экрана
     // при нажатии на кнопку должен открываться другой виджет
+    QPushButton *conBut = new QPushButton;
 
 }
